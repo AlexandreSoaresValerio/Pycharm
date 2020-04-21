@@ -1,0 +1,8 @@
+v = float(input('Qual é a velocidade atual do carro?'))
+m = (v-80)*7
+if v <=80:
+    print('Tenha um bom dia! Dirija com segurança! ')
+else:
+    print('MULTADO! Voçê exedeu o limite de velocidade que é de 80km/h\nVoçê deve pagar uma multa de R${:.2f}!'.format(m))
+    print('Tenha um bom dia e dirija com cuidado!')
+

@@ -1,0 +1,11 @@
+from math import ceil,floor,pow
+import emoji
+print(emoji.emojize('oi :blush:',use_aliases=True))
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+idade=int(input('qual sua idade?'))
+r = idade*2
+t = idade*3
+q = idade**(1/2)
+print ('dobro da sua idade = {}'.format(r))
+print ('triplo da sua idade = {}'.format(t))
+print ('sua idade ao quadrado = {:.2f}'.format(q))
+print('o dobro da sua idade e {} , o triplo {} e a raiz quadrada e {}'.format(idade*2,idade*3,idade**(1/2)))

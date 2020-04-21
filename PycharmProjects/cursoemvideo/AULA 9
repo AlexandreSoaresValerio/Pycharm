@@ -1,0 +1,23 @@
+frase = '   Curso em Video Python'
+#print(frase[9:])
+#print(len(frase))
+#print(frase.count('o'))
+#print(frase.count('o',0,13))
+#print(frase.find('t')
+#print('Curso'in frase)
+#print(frase.replace('Python','Java'))
+#print(frase.upper())
+#print(frase.lower())
+#print(frase.capitalize())
+#print(frase.title())
+#print(frase.strip())
+#print(frase.rstrip())
+#print(frase.lstrip())
+#print(frase.split())
+#print('-'.join(frase))
+#print("""Nessa aula, vamos aprender operações com String no Python. As principais operações que vamos aprender são o Fatiamento de String, Análise com len(), count(), find(), transformações com replace(), upper(), lower(), capitalize(), title(), strip(), junção com join().""")
+#print('-'.join(frase))
+#frase = frase.split()
+#print(frase[1][1])
+
+

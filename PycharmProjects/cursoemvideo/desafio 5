@@ -1,0 +1,9 @@
+i=int(input('qual sua idade?'))
+print('antecessor =',i - 1)
+print('sucessor =',i + 1)
+print('numero anterior ={}'.format(i-1))
+print('numero sucessor ={}'.format(i+1))
+a=i-1
+s=i+1
+print('analisando o valor {}, seu antecessor e {} e seu sucessor e {}'.format(a,s))
+print('analisando o valor {}, seu antecessor e {} e seu sucessor e {}'.format(i,i-1,i+1))

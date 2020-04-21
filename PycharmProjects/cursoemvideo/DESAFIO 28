@@ -1,0 +1,16 @@
+from random import choice,randint
+from time import sleep
+#n=int(input('Qual o valor que voce acha que o computador escolheu de  0a 5?'))
+#lista = [1,2]
+#if n == choice(lista):
+   # print('voce acertou')
+#else:
+#    print('tente novamente')
+n = randint(0,5)
+num = int(input('qual numero acha que foi escolhido?'))
+print('aguarde um momento')
+sleep(2)
+if n == num:
+    print('parabens, numero escolhido {} '.format(n))
+else:
+    print('perdeu , numero escolhido foi {} e nao {}'.format(n,num))

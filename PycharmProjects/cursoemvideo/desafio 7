@@ -1,0 +1,6 @@
+n1=float(input('primeiro trimestre?'))
+n2=float(input('segundo trimestre?'))
+n3=float(input('terceiro trimestre?'))
+n4=float(input('quarto semestre?'))
+m=(n1+n2+n3+n4)/4
+print('sua media nesse ano foi = {:>2}'.format(m))

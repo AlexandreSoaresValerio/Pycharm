@@ -1,0 +1,5 @@
+print('seu salario sem os 15% por cento de aumento e 4319,43')
+n1 = 4319.43
+s=n1*15/100
+t=n1+s
+print('seu salario atual e {:.2f} reias'.format(t))

@@ -1,0 +1,10 @@
+5+2 ==
+5-2==
+5/2==
+5*2==
+5**2==
+5//2==
+5%2=  =
+
+idade=input('qual sua idade?')
+print('tenho {:>5}'.format(idade))

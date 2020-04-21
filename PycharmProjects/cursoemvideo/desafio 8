@@ -1,0 +1,4 @@
+d=float(input('Quantos metros percorreu?'))
+cm=d*100
+mm=d*1000
+print(' metros = {} \n Centímeros = {:.0f} \n milimetros = {:.0f} \n'.format(d,cm,mm))

@@ -1,0 +1,6 @@
+v=float (input('QUAL VALOR DESEJA TROCAR POR DOLARES? R$'))
+d= 3.27
+t= v/d
+print('VOCE PODE COMPRAR US${:.2f} DOLARES'.format(t))
+d=v/3.27
+print('VOCE PODE COMPRAR US${:.2F} DOLARES'.format(d))

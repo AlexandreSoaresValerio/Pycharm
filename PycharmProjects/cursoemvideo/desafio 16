@@ -1,0 +1,3 @@
+from math import trunc
+num = float(input('Escolha um numero'))
+print('sua porçao inteira e {}'.format(trunc(num)))

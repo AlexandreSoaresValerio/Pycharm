@@ -1,0 +1,8 @@
+d = float(input('Qual a distancia da viajem?'))
+print('Voçê esta prestes a iniciar uma viajem de {:.2f}km'.format(d))
+v = d*0.50
+t = d*0.45
+if d<=200:
+    print('O valor de sua passagem é R${:.2f}'.format(v))
+else:
+    print('O valor de sua passagem é R${:.2f}'.format(t))

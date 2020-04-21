@@ -1,0 +1,5 @@
+i = int(input('Qual sua idade?'))
+if i <= 21:
+    print('Voce esta jovem ainda')
+else:
+    print('passando da idade')

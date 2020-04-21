@@ -1,0 +1,6 @@
+s = float(input('Qual seu salário ? R$ '))
+if s > 1250.00:
+    print('Seu salario com o aumento de 10% será = {:.2f}'.format(s + (10/100*s)))
+else:
+    print('Seu salário com o aumento de 15% será = {:.2f}'.format(s + (15/100*s)))
+

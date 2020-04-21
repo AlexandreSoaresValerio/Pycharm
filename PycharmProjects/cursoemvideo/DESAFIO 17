@@ -1,0 +1,5 @@
+from math import sqrt
+c1 = float(input('qual comprimento do cateto adjacente?'))
+c2 = float(input('qual o comprimento do cateto oposto?'))
+h = c1**2 + c2**2
+print('O comprimento da hipotenuisa e {} metros²'.format(h))

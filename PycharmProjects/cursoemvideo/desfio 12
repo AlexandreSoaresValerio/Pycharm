@@ -1,0 +1,5 @@
+n1=float(input('qual o preco do produto?(R$)'))
+q=n1-(n1*5/100)
+#t=n1-p
+print('nesse saldao se voce comprar apenas hoje ganhara 5% de desconto em qualquer peca.\nValor com desconto R$ {:.2f}'.format(q))
+#p=n1-(n1*5/100)
